@@ -5,6 +5,7 @@
  */
 package triangulacion_de_delaunay;
 import javax.swing.*;
+import java.awt.*;
 /**
  *
  * @author Bruno
@@ -15,8 +16,11 @@ public class Applet extends JApplet {
     
     public void init (){
         panel=new Panel();
+        panel.setBackground(Color.white);
+        
         getContentPane().add(panel);
         this.resize(400, 300);
+        
         panel.ini();
     }
 }

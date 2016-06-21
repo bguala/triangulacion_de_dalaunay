@@ -19,10 +19,10 @@ public class Vertice {
     }
     
     public int get_x (){
-        return x;
+        return this.x;
     }
     
     public int get_y (){
-        return y;
+        return -this.y;
     }
 }
